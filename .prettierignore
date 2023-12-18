@@ -1,0 +1,8 @@
+# Which projects the prettier functionalities woild not haveto work  
+/.vscode
+/node_modules
+./dist
+
+*.env
+.env
+.env.*
