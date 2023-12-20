@@ -18,9 +18,7 @@ const connectDB = async () => {
         console.log(`MongoDB connected !! DB HOST:${connectionInstance}`);
 
 
-        app.listen("8000", () => {
-            console.log("Server is listening on the port ", process.env.PORT);
-        })
+
 
 
     }
